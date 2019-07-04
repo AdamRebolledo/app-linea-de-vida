@@ -12,7 +12,6 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { PreguntasfrecuentesComponent } from './componentes/preguntasfrecuentes/preguntasfrecuentes.component';
 import { AtencionComponent } from './componentes/atencion/atencion.component';
 import { AlianzasComponent } from './componentes/alianzas/alianzas.component';
-import { EquipoComponent } from './componentes/equipo/equipo.component';
 
 const routes:Routes= [
   {
@@ -51,8 +50,7 @@ const routes:Routes= [
     ContactoComponent,
     PreguntasfrecuentesComponent,
     AtencionComponent,
-    AlianzasComponent,
-    EquipoComponent
+    AlianzasComponent
   ],
   imports: [
     BrowserModule,
