@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/page.min.js" 
+            ]
           },
           "configurations": {
             "production": {
@@ -90,7 +92,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/page.min.js" 
+            ]
           }
         },
         "lint": {
