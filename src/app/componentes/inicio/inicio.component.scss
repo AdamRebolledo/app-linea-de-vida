@@ -1,0 +1,7 @@
+.imagen {
+    transition: all .5s ease-in-out;
+}
+
+.imagen:hover {
+    filter: sepia(60%);
+}
