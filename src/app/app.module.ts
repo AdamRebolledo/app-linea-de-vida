@@ -12,6 +12,8 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { PreguntasfrecuentesComponent } from './componentes/preguntasfrecuentes/preguntasfrecuentes.component';
 import { AtencionComponent } from './componentes/atencion/atencion.component';
 import { AlianzasComponent } from './componentes/alianzas/alianzas.component';
+import { HeaderComponent } from './componentes/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 const routes:Routes= [
   {
@@ -50,7 +52,9 @@ const routes:Routes= [
     ContactoComponent,
     PreguntasfrecuentesComponent,
     AtencionComponent,
-    AlianzasComponent
+    AlianzasComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
