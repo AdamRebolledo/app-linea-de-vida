@@ -1,4 +1,3 @@
-
 /*
 |--------------------------------------------------------------------------
 | Custom Javascript code
@@ -11,6 +10,10 @@
 */
 
 $(function() {
+    $(".slick-slider").slick({
+        variableWidth: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+    });
 
- 
-}); 
+});
