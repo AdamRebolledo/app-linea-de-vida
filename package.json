@@ -44,7 +44,7 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3",
     "@fortawesome/fontawesome-free": "^5.7.2",
-    "ajv": "^6.9.2",
+    "ajv": "^6.12.3",
     "ajv-keywords": "^3.4.0",
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
